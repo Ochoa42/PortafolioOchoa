@@ -36,7 +36,7 @@ export const Work = () => {
                 <button className="pt-[8rem] my-[2rem] ">Check my Linkedin</button>
             </div>
             <div>
-                <img src="public/Images/Rectangle38.png" />
+                <img src="/Images/Rectangle38.png" />
             </div>
         </div>  
 

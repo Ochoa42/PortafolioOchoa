@@ -73,7 +73,7 @@ export const Projects = () => {
                 <button className="pt-[8rem] my-[2rem] ">Check my Linkedin</button>
             </div>
             <div>
-                <img className="w-full" src="public/Images/Rectangle39.png" />
+                <img className="w-full" src="/Images/Rectangle39.png" />
             </div>
         </div> 
 
