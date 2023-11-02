@@ -1,0 +1,28 @@
+.letter_auto{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    animation: typing 2s steps(12), blink .5s infinite step-end  alternate;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 13.2ch;
+  }
+  
+  @keyframes typing{
+    from {width: 0}
+  }
+  
+  @keyframes blink{
+  50% {border-color: purple}
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  /* Aplica la clase de animación a tu sección "Projects" */
+  section#projects {
+    animation: fadeIn 1s;
+  }
