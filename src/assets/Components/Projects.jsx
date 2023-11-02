@@ -12,7 +12,7 @@ export const Projects = () => {
                     <h2 className="text-4xl font-bold">Work that I've done for the past 8 years</h2>
                 </div>
                 <div>
-                    <img src="public/Images/Rectangle44.png"/>
+                    <img src="/Images/Rectangle44.png"/>
                 </div>
                 <div className="bg-gray-700 p-6">
                     <h2 className="text-2xl py-4 font-bold">
@@ -26,7 +26,7 @@ export const Projects = () => {
     
             <div className="pb-[1rem]">
                 <div>
-                    <img src="public/Images/Rectangle41.png"/>
+                    <img src="/Images/Rectangle41.png"/>
                 </div>
                 <div className="bg-gray-700 p-6">
                     <h3 className="text-2xl py-4 font-bold">Restaurant Website Design</h3>
@@ -40,7 +40,7 @@ export const Projects = () => {
             <div className="pl-[0.5rem]">
                 <div className="row-span-2 pb-[1rem]">
                     <div>
-                    <img src="public/Images/Rectangle42.png"/>
+                    <img src="/Images/Rectangle42.png"/>
                     </div>
                     <div className="bg-gray-700 p-6">
                         <h2 className="text-2xl py-4 font-bold">T-Box Mobile Design</h2>
@@ -52,7 +52,7 @@ export const Projects = () => {
 
                 <div className="pb-[1rem]">
                     <div>
-                        <img src="public/Images/Rectangle43.png"/>    
+                        <img src="/Images/Rectangle43.png"/>    
                     </div>
                     <div className="bg-gray-700 p-6">
                         <h2 className="text-2xl py-4 font-bold">Mobile Dashboard</h2>

@@ -34,7 +34,7 @@ export const Home = () => {
             </nav>
         </div>
         <div className="relative z-10 sm:h-full">
-            <img className="h-[50%] sm:w-[40%]" src="public/Images/Rectangle37.png"/>
+            <img className="h-[50%] sm:w-[40%]" src="/Images/Rectangle37.png"/>
         </div>
         <div className="bg-slate sm:absolute right-0 top-0 sm:h-full sm:w-[70%] py-[10%] flex items-center ">
             <div className="relative z-10 w-full  px-[1rem] py-[-30%]  md:mt-[5%] ">
