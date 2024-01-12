@@ -1,0 +1,111 @@
+{
+    "home":{
+        "nav":{
+            "home":"Home",
+            "project":"Projects",
+            "work":"Work",
+            "contact":"Contact"
+        },
+        "banner":{
+            "title":"I'm Aldo Ochoa",
+            "subtitle":"A Fullstack Developer",
+            "paragraph":"I’m probably the most passionate developer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy."
+        }
+    },
+    "work":{
+        "banner1":{
+            "title":"Work Experience",
+            "subtitle":"Companies I have worked for in the past",
+            "number":{
+                "01":{
+                    "title":"Jalasoft, ",
+                    "subtitle":"Fronted Develop",
+                    "paragraph":"Worked as a fronted developer for 3 months"
+                },
+                "02":{
+                    "title":"Assuresoft, ",
+                    "subtitle":"Developer Junior",
+                    "paragraph":"Work as a junior backend developer for 3 months"
+                },
+                "03":{
+                    "title":"Academlo, ",
+                    "subtitle":"Estudent Fullstack",
+                    "paragraph":"Intensive course as a full stack developer for 6 months"
+                }
+            }
+        },
+        "banner2":{
+            "title":"Philosophy & values",
+            "paragraph":"I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: authenticity, creativity, & hospitality.",
+            "paragraph2":"Check my Linkedin"
+        },
+        "banner3":{
+            "skills":{
+                "title":"Skillset",
+                "subtitle":"With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge."
+            },
+            "tools":{
+                "01":{
+                    "title":"Frameworks"
+                },
+                "02":{
+                    "title":"Languajes"
+                },
+                "03":{
+                    "title":"Source Control"
+                },
+                "04":{
+                    "title":"UX/UI"
+                }
+            }
+        }
+    },
+
+    "project":{
+        "title":"MY PROJECTS",
+        "subtitle":"Work that I've done for the past 3 years",
+        "01":{
+            "title":"web application design with react",
+            "paragraph":"This is an application that shows us the weather in real time according to the location where we are. using react native framework and apis"
+        },
+        "02":{
+            "title":"E-commers Website Design",
+            "paragraph":"This is one of the projects carried out within the bootcamp, which consists of the online sale of clothing. We use technologies such as react native, javascript manila"
+        },
+        "03":{
+            "title":"Register Users Website Design",
+            "paragraph":"project carried out within the academlo bootcamp. This app allows us to make requests to register our users and verify them within the database"
+        },
+        "04":{
+            "title":"Request management application",
+            "paragraph":"This project was one of my biggest challenges since we worked with requests within the world of poquemones, it helped me a lot to understand the issue of APIs and their management within the fraemwork with react"
+        },
+        "05":{
+            "title":"TodoList Desktop Design",
+            "paragraph":"This is a project carried out with the Java programming language, it took 1 month to complete it. The app helps us organize our tasks according to the organization that we put into it."
+        },
+        "06":{
+            "title":"Music Web Desing",
+            "paragraph":"This musical application was made within the bootcamp since we work with the Spotify API making different types of queries to its server"
+        },
+        "pie":{
+            "title":"VIEW ALL PROJECTS"
+        },
+        "page2":{
+            "title":"Behance",
+            "paragraph":"I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: authenticity, creativity, & hospitality.",
+            "paragraph2":"Check my Linkedin"
+        }
+    },
+    "contact":{
+        "title":"Let's talk business",
+        "paragraph":"Now that you know a lot about me, let me know if you are interested to work with me.",
+        "form":{
+            "name":"Name",
+            "email":"Email",
+            "message":"Message",
+            "botton":"LET'S GET STARTED"
+        }
+    }
+
+}

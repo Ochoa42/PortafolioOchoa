@@ -1,7 +1,7 @@
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 
-export const Contact = () => {
+export const Contact = ( { isDay, t }) => {
 
     const form = useRef();
 
@@ -19,30 +19,30 @@ export const Contact = () => {
   return (
     <section id="contacts" className="text-white">
         <div className="p-[7rem] grid sm:grid-cols-2 ">
-            <div className="pr-10">
-                <h2 className="text-4xl pb-7">Let's talk business</h2>
+            <div className={`pr-10 ${isDay ? "text-gray-700" : "text-white" } `}>
+                <h2 className="text-4xl pb-7">{t("contact.title")}</h2>
                 <p className="pb-10">
-                Now that you know a lot about me, let me know if you are interested to work with me.  
+                {t("contact.paragraph")} 
                 </p>
             </div>
             <div>
-                <form className="[&>label]:grid grid gap-10 [&>label]:gap-5 w-[min(100%,300px)]  lg:w-[600px] sm:mx-auto items-center sm:px-20  rounded-2xl 
-                [&>label>span]:text-xl" ref={form} onSubmit={sendEmail}>
+                <form className="[&>label]:grid grid gap-10 [&>label]:gap-1 w-[min(100%,300px)]  lg:w-[600px] sm:mx-auto items-center sm:px-20  rounded-2xl 
+                [&>label>span]:text-xl bg-gray-600 py-8 " ref={form} onSubmit={sendEmail}>
                     <label>
-                        <span>Name</span>
+                        <span>{t("contact.form.name")}</span>
                         <input className="outline-none bg-gray-700" type="text" name="user_name" />
                     </label>
                     <label className="">
-                        <span>Email</span>
+                        <span>{t("contact.form.email")}</span>
                         <input className="outline-none bg-gray-700" type="email" name="user_email" />
                     </label>
                     
                     <label className="">
-                        <span>Message</span>
+                        <span>{t("contact.form.message")}</span>
                         <textarea className="outline-none bg-gray-700" name="message" />
                     </label>
                     
-                    <input className="bg-slate p-4 rounded-md" type="submit" value="LET’S GET STARTED" />
+                    <input className="bg-slate p-4 rounded-md" type="submit" value={t("contact.form.botton")} />
                 </form>
             </div>
         </div>

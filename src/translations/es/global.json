@@ -1,0 +1,112 @@
+{
+    "home":{
+        "nav":{
+            "home":"Hogar",
+            "project":"Proyectos",
+            "work":"Trabajos",
+            "contact":"Contacto"
+        },
+        "banner":{
+            "title":"Yo Soy Aldo Ochoa",
+            "subtitle":"Un Desarrollador Fullstack",
+            "paragraph":"Probablemente soy el desarrollador más apasionado con el que jamás trabajarás. Si tienes un gran proyecto que necesita algunas habilidades increíbles, soy tu persona."
+        }
+        
+    },
+    "work":{
+        "banner1":{
+            "title":"Experiencia Laboral ",
+            "subtitle":"Empresas para las que he trabajado en el pasado",
+            "number":{
+                "01":{
+                    "title":"Jalasoft, ",
+                    "subtitle":"Desarrollador Frontend",
+                    "paragraph":"Trabaje como desarrollador Frontend durante 3 meses."
+                },
+                "02":{
+                    "title":"Assuresoft, ",
+                    "subtitle":"Developer Junior",
+                    "paragraph":"Trabaje como desarrollador backend junior durante 3 meses."
+                },
+                "03":{
+                    "title":"Academlo, ",
+                    "subtitle":"Estudiante Fullstack",
+                    "paragraph":"Curso intensivo como desarrollador full stack durante 6 meses"
+                }
+            }
+        },
+        "banner2":{
+            "title":"Filosofia y valores",
+            "paragraph":"Creo que todo el mundo quiere lo mismo: relación con la humanidad, paz con lo metafísico y experiencia con el universo. Intento captar estas cosas con mis valores: autenticidad, creatividad y hospitalidad.",
+            "paragraph2":"Revisa mi Linkedin"
+        },
+        "banner3":{
+            "skills":{
+                "title":"Habilidades",
+                "subtitle":"Con habilidades en más de 4 campos diferentes del diseño, soy la persona perfecta para contratar cuando se trata de un proyecto completo. Cualesquiera que sean sus necesidades, puedo afrontar prácticamente cualquier desafío."
+            },
+            "tools":{
+                "01":{
+                    "title":"Frameworks"
+                },
+                "02":{
+                    "title":"Lenguajes"
+                },
+                "03":{
+                    "title":"Fuente de Control"
+                },
+                "04":{
+                    "title":"UX/UI"
+                }
+            }
+        }
+    },
+
+    "project":{
+        "title":"MIS PROYECTOS",
+        "subtitle":"Trabajo que he realizado durante los últimos 3 años.",
+        "01":{
+            "title":"diseño de aplicaciones web con React Native",
+            "paragraph":"Esta es una aplicación que nos muestra el clima en tiempo real según la ubicación donde nos encontremos. usando React nativo y apis"
+        },
+        "02":{
+            "title":"Diseño de sitios web para comercios electrónicos",
+            "paragraph":"Este es uno de los proyectos que se llevan a cabo dentro del bootcamp, que consiste en la venta online de ropa. Utilizamos tecnologías como React nativo, javascript manila"
+        },
+        "03":{
+            "title":"Registrar Usuarios Diseño de Sitios Web",
+            "paragraph":"Proyecto realizado dentro del bootcamp academlo. Esta aplicación nos permite realizar solicitudes para registrar a nuestros usuarios y verificarlos dentro de la base de datos."
+        },
+        "04":{
+            "title":"Solicitud de gestión de Apis",
+            "paragraph":"Este proyecto fue uno de mis mayores retos ya que trabajamos con solicitudes dentro del mundo de poquemones, me ayudó mucho a entender el tema de las API y su manejo dentro del marco con reaccionar."
+        },
+        "05":{
+            "title":"Aplicacion de escritorio TodoList",
+            "paragraph":"Este es un proyecto realizado con el lenguaje de programación Java, tomó 1 mes completarlo. La aplicación nos ayuda a organizar nuestras tareas según la organización que le pongamos."
+        },
+        "06":{
+            "title":"Diseño web musical",
+            "paragraph":"Esta aplicación musical fue realizada dentro del bootcamp ya que trabajamos con la API de Spotify realizando diferentes tipos de consultas a su servidor."
+        },
+        "pie":{
+            "title":"VER TODOS LOS PROYECTOS"
+        },
+        "page2":{
+            "title":"Comportamiento",
+            "paragraph":"Creo que todo el mundo quiere lo mismo: relación con la humanidad, paz con lo metafísico y experiencia con el universo. Intento captar estas cosas con mis valores: autenticidad, creatividad y hospitalidad.",
+            "paragraph2":"Revisa mi Linkedin"
+        }
+    },
+    "contact":{
+        "title":"hablemos de negocios",
+        "paragraph":"Ahora que sabes mucho sobre mí, déjame saber si estás interesado en trabajar conmigo.",
+        "form":{
+            "name":"Nombre",
+            "email":"Correo Electronico",
+            "message":"Mensaje",
+            "botton":"EMPECEMOS"
+        }
+    }
+
+}
